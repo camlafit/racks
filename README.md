@@ -1,15 +1,40 @@
 # racks
-Plugin racks pour GLPI
+
+Plugin racks pour GLPI < 9.3
 
 *******************
 
-Plugin integré dans GLPI 9.3
+## Fonctionnalités integrées dans GLPI 9.3
+
+Ce plugin doit être retiré si vous utilisez une version récent de GLPI ( >= 9.3) 
+
+Depuis GLPI 9.3, cette fonctionnalité a été intégrée dans le coeur de GLPI.
+Un [script de migration](https://github.com/glpi-project/glpi/blob/9.4/bugfixes/scripts/migrations/racks_plugin.php) est fourni pour mettre à jour vos données :
+```
+scripts/migrations/racks_plugin.php [--update_plugin]
+```
+
+Pour plus d'information consultez [les informations officielles relatives à la version 9.3](https://glpi-project.org/fr/glpi-9-3/)
+
 
 *******************
 
-Plugin integrated into GLPI 9.3
+## Features integrated into GLPI 9.3
+
+This plugin should be remove if you use a recent GLPI version
+
+Since GLPI 9.3 version, this feature is in GLPI core.
+You can find a [script migration ](https://github.com/glpi-project/glpi/blob/9.4/bugfixes/scripts/migrations/racks_plugin.php) to update your data from plugin to core feature : 
+```
+scripts/migrations/racks_plugin.php [--update_plugin]
+```
+
+More information in [9.3 release information](https://glpi-project.org/glpi-9-3-itsm-software/)
+
 
 *******************
+
+## In GLPI < 9.3 use case
 
 Ce plugin est sur Transifex - Aidez-nous à le traduire :
 https://www.transifex.com/tsmr/GLPI_racks/
